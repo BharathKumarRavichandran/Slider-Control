@@ -1,0 +1,81 @@
+html{
+  background: #e74c3c;
+}
+
+#blockParent{
+	position: absolute;
+	margin-top: -4%;
+	margin-left: 60%;
+	border-left: 8px solid #ccc;
+	width: 25vw;
+	height: 117%;
+}
+
+#block{
+	position: fixed;
+	margin-top: 27vh;
+	margin-left: 10%;
+}
+
+.title{
+	font-family: "Comic Sans MS";
+	font-size: 40px;
+	margin-left: 22%;
+	margin-top: 1%;
+	color: #fff;
+}
+
+.props{
+	margin-top: 4%;
+	margin-left: 1%;
+}
+
+.propHead{
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+	color: #eee;	
+}
+
+.property{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.propName{
+	font-family: "Comic Sans MS";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: white;
+	opacity: 0.7;
+}
+
+.subPropName{
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+	color: white;
+	opacity: 0.7;
+	margin-left: 2px;
+}
+
+input[type="range"]{
+	-webkit-appearance: none;
+	width: 140px;
+	height: 20px;
+	margin: 10px 50px;
+	background: linear-gradient(to right, #9A2720 , #9A2720);
+	background-size: 150px 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	background: #F26B5E;
+	z-index: 3;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+}
